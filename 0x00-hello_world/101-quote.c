@@ -1,1 +1,12 @@
-VimCrypt~03!CÜğ/Öbg1İÔ,x®!>CšÿÅ5ÂªUÛ8ÇÈj‘É-uQÆÙŒØq¾¸‰§xŸ=Û÷÷|³ÆŠI4µú{8ÜŞYñìõk÷Ëü¸1‰Ù“¹óLwS,ò»ÄáWµ‘ßl)Îs¨¦ƒ/Iğ:Q‹©OÈö»cZBš‹<šFxeÒ»hà·‡®~Ï	RèıFÚxûı?vy„HÃ„y¿Ùæ­¼ßMYª>—’“ŒE+\LÿA‚®èsÆî®Â=»c"ˆ}mVC3»¼Ô…^ÿ`PMnõx,šb·3JXÏĞ[[ä
+#include <stdio.h>
+#include <stdlib.h>
+/**
+* main - Entry point
+* Return: Always 1 (Success)
+*/
+int main(void)
+{
+	write(STDOUT_FILENO, "and that piece of art is useful
+			\" - Dora Korpar, 2015-10-19\n", 59);
+	return(1);
+}
