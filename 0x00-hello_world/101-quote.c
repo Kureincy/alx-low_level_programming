@@ -3,7 +3,9 @@
 /**
  * main - Entry point
  *
- * Return
+ * Description: 'the program's description'
+ *
+ * Return: Always 1(success)
  */
 int main(void)
 {
