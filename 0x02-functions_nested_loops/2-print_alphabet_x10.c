@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
- *Description: Functions uses putchar function to print
- * alphabet in lowercase 10 times
- * Return: Always 0 (Success)
- */
+* print_alphabet_x10 - Make alphabets 10 times
+* Description: Functions uses putchar function to print
+* alphabet in lowercase 10 times
+* Return: void
+*/
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	int j;
@@ -18,6 +18,4 @@ int main(void)
 			_putchar(i);
 		_putchar('\n');
 	}
-
-	return (0);
 }
