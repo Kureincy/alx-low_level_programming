@@ -8,7 +8,7 @@
  * Return: 1 if true or 0 if false
  */
 
-int _islapha(int c)
+int _isalpha(int c)
 {
 	char lower, upper;
 	int isletter = 0;
