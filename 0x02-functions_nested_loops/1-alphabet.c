@@ -2,7 +2,7 @@
 
 /**
  * main - Check the code
- *
+ * Description: It prints the alphabet in lower case followed by a new line
  * Return: void
  */
 
