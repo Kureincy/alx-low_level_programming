@@ -2,7 +2,8 @@
 
 /**
  * main - Check the code
- * Description: It prints_alphabet in lower case followed by a new line
+ * Description: A function that prints_alphabet,
+ * in lower case followed by a new line
  * Return: void
  */
 
