@@ -7,6 +7,7 @@
  * letter, lowecase, or uppercase.
  * Return: 1 if true or 0 if false
  */
+
 int _islapha(int c)
 {
 	char lower, upper;
@@ -18,6 +19,8 @@ int _islapha(int c)
 		{
 			if (c == lower || c == upper)
 				isletter = 1;
+			else
+				isletter = 0;
 		}
 	}
 	return (isletter);
