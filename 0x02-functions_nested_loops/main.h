@@ -1,4 +1,6 @@
-int putchar(const char *string)
+_putchar.c
+
+int putchar(int char)
 
 //1-alphabet.c	
 void print_alphabet(void);
