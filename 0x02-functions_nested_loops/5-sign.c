@@ -3,7 +3,7 @@
 /**
 * print_sign: check main
 * @n: carrier variable
-* Description: This function prints the sign of a number
+* Description: prints the sign of a number
 * Return: 1 if n>0, 0 if n == 0, -1 if n<0
 */
 
