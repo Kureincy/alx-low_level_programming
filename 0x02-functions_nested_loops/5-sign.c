@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
-* print_sign: Entry point
+* print_sign: Entry point check main
 * @n: carrier variable
 * Description: This function prints the sign of a number
 * Return: 1 if n>0, 0 if n == 0, -1 if n<0
@@ -20,5 +20,5 @@ int print_sign(int n)
 		return (-1);
 	}
 	else
-		return (0);	
+		return (0);
 }
