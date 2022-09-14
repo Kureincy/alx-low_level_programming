@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_sign: chek main
+* print_sign - check main
 * @n: carrier variable
 * Description: prints the sign of a number
 * Return: 1 if n>0, 0 if n == 0, -1 if n<0
