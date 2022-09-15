@@ -8,20 +8,23 @@
 int main(void)
 {
 	int i;
-	long int fibonacci[50];
+	long j = 1, k = 2;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	printf("%1d, %1d, ", fibonacci[0], fibonacci[1]);
-
-	for (i = 2; i < 50; i++)
+	while (i < 50)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if (i == 49)
-			printf("%1d\n", fibonacci[1]);
+		if (i == 0)
+			printf("%1d", j);
+		else if (i = 1)
+			printf(", %1d", k);
 		else
-			printf("%1d", fibonacci[1]);
-	}
+		{
+			k += j;
+			j = k - j;
+			printf(", %1d", k);
+		}
 
+		++i;
+	}
+	printf("\n");
 	return (0);
 }
